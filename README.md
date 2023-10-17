@@ -20,6 +20,7 @@ As of 10/16/23 This is my current project
 - I am working with Dr. Mayer on this project :)
 
 **Important Dates**
+
 10/31/23: First Sprint Deadline (Minimum Viable Product) ✅
 
 11/6/23: Proposal Deadline 🔵
