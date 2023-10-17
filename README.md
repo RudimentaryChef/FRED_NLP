@@ -1,10 +1,14 @@
 # StudentSurveyNaturalLanguageProcessing
 As of 10/16/23 This is my current project
 **Repository and File Information**
-NLP_Courses.ipynb: The current code base for all Python code regarding cleaning data and model
-TestData.csv: Sample Data. Due to FERPA, I can not publish real student data/survey that we will train the model on. To this end, I have used chatGPT to generate data to train my model for this demo.
-ReadME.MD: This file :)
-.ipynb_checkpoints: Ignore this, these are just some checkpoints for my Jupyter Notebook file
+- NLP_Courses.ipynb: The current code base for all Python code regarding cleaning data and model
+
+- TestData.csv: Sample Data. Due to FERPA, I can not publish real student data/survey that we will train the model on. To this end, I have used chatGPT to generate data to train my model for this demo.
+  
+- ReadME.MD: This file :)
+  
+- .ipynb_checkpoints: Ignore this, these are just some checkpoints for my Jupyter Notebook file
+  
 **Project Story**
 
 - Large online courses have surveys that instructors need to manually sort through which may take hours of time, and for certain MOOCs may be borderline impossible
