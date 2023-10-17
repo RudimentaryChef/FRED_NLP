@@ -21,13 +21,13 @@ As of 10/16/23 This is my current project
 
 **Important Dates**
 
-10/31/23: First Sprint Deadline (Minimum Viable Product) ✅
+- 10/31/23: First Sprint Deadline (Minimum Viable Product) ✅
 
-11/6/23: Proposal Deadline 🔵
+- 11/6/23: Proposal Deadline 🔵
 
-4/15-16/23: University System of Georgia Education Conference 🔵
+- 4/15/23 -> 4/16/23: University System of Georgia Education Conference 🔵
 
 
 **Current Progress**
 
-Sprint 1 complete, basic three-pronged classifier created with tensor flow.
+- Sprint 1 complete, basic three-pronged classifier created with tensor flow.
