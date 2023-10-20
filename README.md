@@ -5,7 +5,7 @@ As of 10/16/23 This is my current project
 
 - TestData.csv: Sample Data. Due to FERPA, I can not publish real student data/survey that we will train the model on. To this end, I have used chatGPT to generate data to train my model for this demo.
   
-- ReadME.MD: This file :)
+- ReadME.MD: This file 
   
 - .ipynb_checkpoints: Ignore this, these are just some checkpoints for my Jupyter Notebook file
   
@@ -17,7 +17,7 @@ As of 10/16/23 This is my current project
   
 - To reduce instructor effort in large courses, this project serves to categorize survey responses using machine learning and then automate the appropriate instructor action (send an email with a response to the FAQ) or flag certain responses that require instructor attention.
   
-- I am working with Dr. Mayer on this project :)
+- I am working with Dr. Mayer on this project 
 
 **Important Dates**
 
