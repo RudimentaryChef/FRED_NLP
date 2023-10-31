@@ -31,3 +31,13 @@ As of 10/16/23 This is my current project
 **Current Progress**
 
 - Sprint 1 complete, basic three-pronged classifier created with tensor flow.
+  No major issues were detected in testing.
+- Sprint 2 complete, 4-pronged classifier that combines various flows.
+  Sprint 2 error: The model has been overfitted due to majority of data being NC it started categorizing every response as NC. 
+  Possible Options to fix the problem in Sprint 2 (model categorizes everything as no concern due to a large amount of no concern within the data set):
+
+    1. Organically make my data better by adding more options that have concerns and less options that are "no concern" #This would be the best for JUST this problem
+    2. Data Augmentation (maybe just cloning?) #I think this might be the best option right now as far as long term expansion goes
+    3. Changing to semi supervised learning
+    4. Convert to a model that uses transfer learning instead
+    
