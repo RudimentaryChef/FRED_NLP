@@ -1,5 +1,5 @@
 # StudentSurveyNaturalLanguageProcessing
-As of 11/7/23 This is my current project
+As of 11/29/23 This is my current project
 **Repository and File Information**
 - NLP_Courses.ipynb: The current code base for all Python code regarding cleaning data and model
 
@@ -23,7 +23,7 @@ As of 11/7/23 This is my current project
 
 - 10/31/23: First Sprint Deadline (Minimum Viable Product) ✅
 
-- 11/6/23: Proposal Deadline 🔵
+- 11/6/23: Proposal Deadline ✅
 
 - 4/15/23 -> 4/16/23: University System of Georgia Education Conference 🔵
 
@@ -40,4 +40,6 @@ As of 11/7/23 This is my current project
     2. Data Augmentation (maybe just cloning?) #I think this might be the best option right now as far as long term expansion goes
     3. Changing to semi supervised learning
     4. Convert to a model that uses transfer learning instead
+- Sprint 3 ongoing, Data Augmentation and Data Equalization
+  
     
