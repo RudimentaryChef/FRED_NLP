@@ -1,5 +1,5 @@
 # StudentSurveyNaturalLanguageProcessing
-As of 11/29/23 This is my current project
+As of 12/08/23 This is my current project
 **Repository and File Information**
 - NLP_Courses.ipynb: The current code base for all Python code regarding cleaning data and model
 
@@ -32,14 +32,19 @@ As of 11/29/23 This is my current project
 
 - Sprint 1 complete, basic three-pronged classifier created with tensor flow.
   No major issues were detected in testing.
+  
 - Sprint 2 complete, 4-pronged classifier that combines various flows.
-  Sprint 2 error: The model has been overfitted due to majority of data being NC it started categorizing every response as NC. 
+  Sprint 2 issues: The model has been overfitted due to majority of data being NC it started categorizing every response as NC. 
   Possible Options to fix the problem in Sprint 2 (model categorizes everything as no concern due to a large amount of no concern within the data set):
 
-    1. Organically make my data better by adding more options that have concerns and less options that are "no concern" #This would be the best for JUST this problem
-    2. Data Augmentation (maybe just cloning?) #I think this might be the best option right now as far as long term expansion goes
-    3. Changing to semi supervised learning
-    4. Convert to a model that uses transfer learning instead
-- Sprint 3 ongoing, Data Augmentation and Data Equalization
+    1. Organically make my data better by adding more options that have concerns and less options that are "no concern" (This would be the best for JUST this problem BUT LACKS Generalization)
+    2. Data Augmentation (maybe just cloning?) (I think this might be the best option right now as far as long term expansion goes)
+    3. Changing to semi supervised learning (Not enough data)
+    4. Convert to a model that uses transfer learning instead (Need to look into this more)
+       
+- Sprint 3 complete, Back Translation Augmentation Attempt:
+    Sprint 3 issues: Major Roadblock. Google Translate API is extremely slow and unreliable. An alternative solution needs to be found.
+
+- Sprint 4 Ongoing, Alternate Data Augmentation Method using Open AI API. 
   
     
