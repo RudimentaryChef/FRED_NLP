@@ -46,5 +46,6 @@ As of 12/08/23 This is my current project
     Sprint 3 issues: Major Roadblock. Google Translate API is extremely slow and unreliable. An alternative solution needs to be found.
 
 - Sprint 4 Ongoing, Alternate Data Augmentation Method using Open AI API. 
+    Important Resource: [https://cookbook.openai.com/examples/how_to_handle_rate_limits](url)
   
     
