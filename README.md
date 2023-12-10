@@ -47,6 +47,7 @@ As of 12/08/23 This is my current project
 
 - Sprint 4 Ongoing, Alternate Data Augmentation Method using Open AI API. 
     Important Resource: [https://cookbook.openai.com/examples/how_to_handle_rate_limits](url)
+  
     Open-AI API fine tuning problems: [https://medium.com/@abhishekmazumdar94/fine-tuning-an-open-ai-model-dc78e6ad5a07 ](url)
   
     
