@@ -45,10 +45,15 @@ As of 12/08/23 This is my current project
 - Sprint 3 complete, Back Translation Augmentation Attempt:
     Sprint 3 issues: Major Roadblock. Google Translate API is extremely slow and unreliable. An alternative solution needs to be found.
 
-- Sprint 4 Ongoing, Alternate Data Augmentation Method using Open AI API.
+- Sprint 4 PAUSED, Look into Alternate Data Augmentation Method using Open AI API.
   
     Important Resource: [https://cookbook.openai.com/examples/how_to_handle_rate_limits](url)
   
     Open-AI API fine tuning problems: [https://medium.com/@abhishekmazumdar94/fine-tuning-an-open-ai-model-dc78e6ad5a07 ](url)
+    THIS HAS BEEN DEEMED AS FEASIBLE. However it is time-consuming and I will get back to this after I have a viable first product. I have managed to generate augmented data. 
+
   
-    
+- Sprint 5 Ongoing, Use an LLM for text categorization
+
+  Important Resource: [https://towardsdatascience.com/choosing-the-right-language-model-for-your-nlp-use-case-1288ef3c4929](url)
+
