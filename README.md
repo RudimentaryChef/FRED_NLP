@@ -55,5 +55,7 @@ As of 12/08/23 This is my current project
   
 - Sprint 5 Ongoing, Use an LLM for text categorization
 
-  Important Resource: [https://towardsdatascience.com/choosing-the-right-language-model-for-your-nlp-use-case-1288ef3c4929](url)
+  Important Resources: [https://towardsdatascience.com/choosing-the-right-language-model-for-your-nlp-use-case-1288ef3c4929](url)
+  
+                       [ https://www.youtube.com/watch?v=IzbjGaYQB-U&ab_channel=PritishMishra](url)
 
