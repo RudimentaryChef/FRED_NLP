@@ -50,12 +50,16 @@ As of 12/08/23 This is my current project
     Important Resource: [https://cookbook.openai.com/examples/how_to_handle_rate_limits](url)
   
     Open-AI API fine tuning problems: [https://medium.com/@abhishekmazumdar94/fine-tuning-an-open-ai-model-dc78e6ad5a07 ](url)
-    THIS HAS BEEN DEEMED AS FEASIBLE. However it is time-consuming and I will get back to this after I have a viable first product. I have managed to generate augmented data. 
+    THIS HAS BEEN DEEMED AS FEASIBLE. However it is time-consuming and I will get back to this after I have a viable first product. I have managed to generate augmented data.
+
+    This method has been successfully implemented on a smaller scale.
 
   
 - Sprint 5 Ongoing, Use an LLM for text categorization
 
   Important Resources: [https://towardsdatascience.com/choosing-the-right-language-model-for-your-nlp-use-case-1288ef3c4929](url)
+
+  SUCCESS WITH BERT!
   
                        [ https://www.youtube.com/watch?v=IzbjGaYQB-U&ab_channel=PritishMishra](url)
 
