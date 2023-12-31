@@ -45,7 +45,7 @@ As of 12/08/23 This is my current project
 - Sprint 3 complete, Back Translation Augmentation Attempt:
     Sprint 3 issues: Major Roadblock. Google Translate API is extremely slow and unreliable. An alternative solution needs to be found.
 
-- Sprint 4 PAUSED, Look into Alternate Data Augmentation Method using Open AI API.
+- Sprint 4 COMPLETE, Look into Alternate Data Augmentation Method using Open AI API.
   
     Important Resource: [https://cookbook.openai.com/examples/how_to_handle_rate_limits](url)
   
@@ -53,13 +53,21 @@ As of 12/08/23 This is my current project
     THIS HAS BEEN DEEMED AS FEASIBLE. However it is time-consuming and I will get back to this after I have a viable first product. I have managed to generate augmented data.
 
     This method has been successfully implemented on a smaller scale.
+    
 
   
-- Sprint 5 Ongoing, Use an LLM for text categorization
+- Sprint 5 Complete!, Use an LLM for text categorization
 
   Important Resources: [https://towardsdatascience.com/choosing-the-right-language-model-for-your-nlp-use-case-1288ef3c4929](url)
 
-  SUCCESS WITH BERT!
+  SUCCESS WITH BERT
   
                        [ https://www.youtube.com/watch?v=IzbjGaYQB-U&ab_channel=PritishMishra](url)
+- Sprint 6, Improve performance on more complicated cases
+  
+  Important Resources: To be found
+  
+  Method: To be determined
+  
+  Possible Ideas: Augmented REAL data by using the same method as I used to generate augmented data. Reinforcement training of sorts with real data. Transfer learning?
 
