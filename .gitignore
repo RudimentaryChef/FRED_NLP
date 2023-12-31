@@ -1,1 +1,42 @@
-augmented.xlsx
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# IDE files
+.idea/
+.vscode/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Compiled source files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Temporary files
+*.swp
+*.bak
+*~
+*.DS_Store
+Thumbs.db
+
+# Dependency directories
+__pycache__/
+node_modules/
+
+# Custom entries
+bert_model.pth
