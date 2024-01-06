@@ -1,13 +1,13 @@
 # StudentSurveyNaturalLanguageProcessing
-As of 12/08/23 This is my current project
+As of 1/06/23 This is my current project
 **Repository and File Information**
-- NLP_Courses.ipynb: The current code base for all Python code regarding cleaning data and model
+- code folder: Contains the Jupyter Notebook and all code files
 
-- TestData.csv: Sample Data. Due to FERPA, I can not publish real student data/survey that we will train the model on. To this end, I have used chatGPT to generate data to train my model for this demo.
+- sampleData folder: Sample Data. Due to FERPA, I can not publish real student data/survey that we will train the model on. To this end, I have used chatGPT to generate data to train my model for this demo.
   
-- ReadME.MD: This file 
+- ReadME.MD file: This file 
   
-- .ipynb_checkpoints: Checkpoints for my Jupyter Notebook file
+- .ipynb_checkpoints folder: Checkpoints for my Jupyter Notebook file
   
 **Project Story**
 
