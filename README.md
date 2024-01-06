@@ -7,7 +7,7 @@ As of 12/08/23 This is my current project
   
 - ReadME.MD: This file 
   
-- .ipynb_checkpoints: Ignore this, these are just some checkpoints for my Jupyter Notebook file
+- .ipynb_checkpoints: Checkpoints for my Jupyter Notebook file
   
 **Project Story**
 
