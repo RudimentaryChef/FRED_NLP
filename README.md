@@ -63,9 +63,11 @@ As of 1/06/23 This is my current project
   SUCCESS WITH BERT
   
                        [ https://www.youtube.com/watch?v=IzbjGaYQB-U&ab_channel=PritishMishra](url)
-- Sprint 6, Improve performance on more complicated cases
+- Sprint 6, Improve performance on more complicated cases OR Implement Unsupervised learning
   
   Important Resources: To be found
+
+
   
   Method: To be determined
   
