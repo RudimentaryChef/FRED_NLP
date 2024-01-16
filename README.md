@@ -1,4 +1,4 @@
-# StudentSurveyNaturalLanguageProcessing
+# FRED_NLP
 As of 1/06/23 This is my current project
 **Repository and File Information**
 - code folder: Contains the Jupyter Notebook and all code files
