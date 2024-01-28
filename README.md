@@ -1,5 +1,5 @@
 # FRED_NLP
-As of 1/06/23 This is my current project
+As of 1/27/23 This is my current project
 **Repository and File Information**
 - code folder: Contains the Jupyter Notebook and all code files
 
@@ -61,6 +61,7 @@ As of 1/06/23 This is my current project
   Important Resources: [https://towardsdatascience.com/choosing-the-right-language-model-for-your-nlp-use-case-1288ef3c4929](url)
 
   SUCCESS WITH BERT
+  Added Feature to automatically categorize any column for an excel sheet.
   
                        [ https://www.youtube.com/watch?v=IzbjGaYQB-U&ab_channel=PritishMishra](url)
 - Sprint 6, Improve performance on more complicated cases OR Implement Unsupervised learning
