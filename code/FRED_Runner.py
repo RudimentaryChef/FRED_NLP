@@ -49,13 +49,57 @@ class Fred_Runner:
         # Calculate confidence intervals
         df['Confidence_Interval: ' + text_column] = predictions.apply(
             lambda x: np.percentile(softmax(x.logits, dim=1).numpy(), [2.5, 97.5], axis=1))
-
         return df
-    def predict_returnExcel (self,location_path,text_column, edit_orignal = True):
+    def predict_returnExcel(self,location_path,text_column, edit_orignal = True):
         df = pd.read_excel(location_path)
         df = self.predict_column(df,text_column,location_path)
+        if(edit_orignal == True):
+            df.to_excel(location_path)
+        else:
+            location_path = location_path + "withPredictions"
+            df.to_excel(location_path)
 
+    def predict_returnCSV(self,location_path,text_column, edit_orignal = True):
+        df = pd.read_excel(location_path)
+        df = self.predict_column(df,text_column,location_path)
+        if(edit_orignal == True):
+            df.to_csv(location_path)
+        else:
+            location_path = location_path + "withPredictions"
+            df.to_csv(location_path)
+    if __name__ == "__main__":
+        while True:
+            location_path = input("Please enter location of the xlsx file: ")
+            if location_path.endswith(".xlsx"):
+                break
+            else:
+                print("Invalid input. Please enter a valid path to an Excel file.")
 
+        while True:
+            text_column = input("Please enter the column name exactly that you want to predict the class of: ")
+            # Add any additional validation if needed
+            if text_column:  # Check if the input is not an empty string
+                break
+            else:
+                print("Invalid input. Please enter a non-empty column name.")
 
-    def predict_returnCSV(self, location):
-        df = self.predict_column()
+        while True:
+            edit_orignal = input(
+                "Enter 'yes' if you want to edit the original, 'no' if you want to predict in a copy of the file: ")
+            edit_orignal_boolean = {"True": True, "False": False, "Yes": True, "yes": True, "No": False,
+                                    "no": False}.get(edit_orignal.lower())
+            if edit_orignal_boolean is not None:
+                break
+            else:
+                print("Invalid input. Please enter 'yes' or 'no'.")
+
+        while True:
+            ExcelOrCsv = input("Type 'excel' if you want it in an Excel file, 'csv' if you want it in a CSV file: ")
+            if ExcelOrCsv.lower() in ['excel', 'csv']:
+                break
+            else:
+                print("Invalid input. Please enter 'excel' or 'csv'.")
+        if(ExcelOrCsv == "excel"):
+            predict_returnExcel(location_path, text_column, edit_orignal_boolean)
+        else:
+            predict_returnCSV(location_path, text_column, edit_orignal_boolean)
