@@ -35,7 +35,7 @@ class Fred_Runner:
 
         return outputs
 
-    def predict_column(self, df, category_mapping, text_column, model_path= 'bert_model.pth'):
+    def predict_column(self, df, text_column, category_mapping = {0: 'OT', 1: "NC", 2: "LM", 3: "TM"}):
         # Load model and tokenizer
         df[text_column] = df[text_column].astype(str)
         # Apply prediction function to each value in the specified column
@@ -51,4 +51,11 @@ class Fred_Runner:
             lambda x: np.percentile(softmax(x.logits, dim=1).numpy(), [2.5, 97.5], axis=1))
 
         return df
-    def predict_returnExcel (self,location):
+    def predict_returnExcel (self,location_path,text_column, edit_orignal = True):
+        df = pd.read_excel(location_path)
+        df = self.predict_column(df,text_column,location_path)
+
+
+
+    def predict_returnCSV(self, location):
+        df = self.predict_column()
