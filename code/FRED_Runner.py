@@ -4,6 +4,7 @@ import torch
 from transformers import BertTokenizer, BertForSequenceClassification
 from torch.nn.functional import softmax
 import numpy as np
+import os
 
 class Fred_Runner:
     """ This is the Fred Runner class. Given a model it contains all the necessary code to run it"""
@@ -69,20 +70,41 @@ class Fred_Runner:
             location_path = location_path + "withPredictions"
             df.to_csv(location_path)
 if __name__ == "__main__":
+    #Adds some basic checkers
+    def is_valid_excel_file(file_path):
+        #Checks if the Excel file exists
+        if not os.path.exists(file_path):
+            print("Error: Excel file does not exist.")
+            return False
+        return True
+    #Returns true if column exists
+    def is_valid_column_name(file_path, column_name):
+        try:
+            #Read the Excel file and check if the specified column exists
+            df = pd.read_excel(file_path)
+            if column_name not in df.columns:
+                print(f"Error: Column '{column_name}' does not exist in the Excel file.")
+                return False
+        except Exception as e:
+            print(f"Error reading Excel file: {e}")
+            return False
+
+        if column_name:
+            return True
+        else:
+            print("Error: Column name cannot be empty.")
+            return False
+
     while True:
         location_path = input("Please enter location of the xlsx file: ")
-        if location_path.endswith(".xlsx"):
+        if is_valid_excel_file(location_path):
             break
-        else:
-            print("Invalid input. Please enter a valid path to an Excel file.")
 
     while True:
         text_column = input("Please enter the column name exactly that you want to predict the class of: ")
         # Add any additional validation if needed
-        if text_column:  # Check if the input is not an empty string
+        if is_valid_column_name(location_path,text_column):  # Check if the input is not an empty string
             break
-        else:
-            print("Invalid input. Please enter a non-empty column name.")
 
     while True:
         edit_orignal = input(
