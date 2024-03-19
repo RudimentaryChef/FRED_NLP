@@ -1,6 +1,11 @@
 # FRED_NLP
-As of 3/13/24 This is my current project
+As of 3/19/24 This is my current project
 
+
+In order to install all necessary packages please run this command:
+```
+pip install -r requirements.txt
+```
 **Repository and File Information**
 - code folder: Contains the Jupyter Notebook and all code files
 
