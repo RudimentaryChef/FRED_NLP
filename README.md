@@ -7,7 +7,7 @@ In order to install all necessary packages please run this command:
 pip install -r requirements.txt
 ```
 **Repository and File Information**
-- code folder: Contains the Jupyter Notebook and all code files
+- code folder: Contains the Jupyter Notebook and all code files. Run the Fred_Runner file to use our Bert Model on your data. Please contact adikrish6824@gmail.com for access to our weights file. Use the code in the jupyter notebook to generate your own model!
 
 - sampleData folder: Sample Data. Due to FERPA, I can not publish real student data/survey that we will train the model on. To this end, I have used chatGPT to generate data to train my model for this demo.
   
