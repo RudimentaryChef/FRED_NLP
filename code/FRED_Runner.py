@@ -33,7 +33,6 @@ class Fred_Runner:
         #Forward pass through the model
         with torch.no_grad():
             outputs = loaded_model(**inputs)
-`
         return outputs
 
     def predict_column(self, df, text_column, category_mapping = {0: 'OT', 1: "NC", 2: "LM", 3: "TM"}):
