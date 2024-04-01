@@ -1,3 +1,4 @@
+annotated-types==0.6.0
 anyio==4.3.0
 appnope==0.1.4
 argon2-cffi==23.1.0
@@ -16,6 +17,7 @@ comm==0.2.1
 debugpy==1.8.1
 decorator==5.1.1
 defusedxml==0.7.1
+distro==1.9.0
 et-xmlfile==1.1.0
 exceptiongroup==1.2.0
 executing==2.0.1
@@ -62,6 +64,7 @@ networkx==3.2.1
 notebook==7.1.0
 notebook_shim==0.2.4
 numpy==1.26.4
+openai==1.14.3
 openpyxl==3.1.2
 overrides==7.7.0
 packaging==23.2
@@ -76,6 +79,8 @@ psutil==5.9.8
 ptyprocess==0.7.0
 pure-eval==0.2.2
 pycparser==2.21
+pydantic==2.6.4
+pydantic_core==2.16.3
 Pygments==2.17.2
 python-dateutil==2.8.2
 python-json-logger==2.0.7
@@ -98,6 +103,7 @@ soupsieve==2.5
 stack-data==0.6.3
 sympy==1.12
 terminado==0.18.0
+tiktoken==0.6.0
 tinycss2==1.2.1
 tokenizers==0.15.2
 tomli==2.0.1
