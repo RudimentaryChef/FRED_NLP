@@ -1,5 +1,5 @@
 # FRED_NLP
-As of 3/19/24 This is my current project
+As of 4/15/24 This is my current project
 
 
 In order to install all necessary packages please run this command:
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 - 11/6/23: Proposal Deadline ✅
 
-- 4/15/23 -> 4/16/23: University System of Georgia Education Conference 🔵
+- 4/15/23 -> 4/16/23: University System of Georgia Education Conference ✅
 
 
 **Current Progress**
